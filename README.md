@@ -1,0 +1,2 @@
+# SHEILD-M-Structural-Hazard-Identification-Early-warning-Landslide-Detection-for-Mines.
+SHEILD-M is a reusable, modular underground coal mine safety system for real-time monitoring of structural deformation, cracks, vibration, strain, moisture, and hazardous gases. It combines multi-sensor nodes, Edge AI, LoRa mesh communication, and an early-warning alert system for continuous, scalable mine safety monitoring.
