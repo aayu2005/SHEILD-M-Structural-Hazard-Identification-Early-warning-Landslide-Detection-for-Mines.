@@ -1,8 +1,8 @@
-# SHEILD-M
+# SHIELD-M
 
 ### Smart Hazard Identification & Early-warning Life-safety Device for Mines
 
-**SHEILD-M** is a reusable, modular underground coal mine safety and structural monitoring system designed for **real-time detection of structural instability and hazardous conditions**. It combines multi-sensor monitoring, Edge AI, LoRa-based mesh communication, and an early-warning system to support continuous underground mine safety.
+**SHIELD-M** is a reusable, modular underground coal mine safety and structural monitoring system designed for **real-time detection of structural instability and hazardous conditions**. It combines multi-sensor monitoring, Edge AI, LoRa-based mesh communication, and an early-warning system to support continuous underground mine safety.
 
 ---
 
@@ -19,13 +19,13 @@ Underground coal mines are exposed to hazards such as:
 
 Conventional monitoring methods may depend on periodic inspection or individual monitoring systems, making continuous distributed monitoring difficult as mining areas change.
 
-SHEILD-M addresses this challenge through a **distributed, reusable and intelligent sensor network**.
+SHIELD-M addresses this challenge through a **distributed, reusable and intelligent sensor network**.
 
 ---
 
 ## 💡 Proposed Solution
 
-SHEILD-M deploys multiple modular sensor nodes across underground mine pillars and active mining blocks.
+SHIELD-M deploys multiple modular sensor nodes across underground mine pillars and active mining blocks.
 
 Each node collects structural and environmental data and performs local processing using an **ESP32-based edge device**. Edge AI performs sensor fusion and anomaly detection to identify abnormal patterns.
 
@@ -81,7 +81,7 @@ Data is communicated through a **LoRa-based mesh network** to a local gateway, w
 
 # 🔧 Sensor Node
 
-Each SHEILD-M node is designed as a **modular pillar-mounted monitoring unit**.
+Each SHIELD-M node is designed as a **modular pillar-mounted monitoring unit**.
 
 ### Sensors
 
@@ -101,7 +101,7 @@ Each SHEILD-M node is designed as a **modular pillar-mounted monitoring unit**.
 
 # 🧠 Edge AI
 
-SHEILD-M uses **Edge AI** to process sensor data locally.
+SHIELD-M uses **Edge AI** to process sensor data locally.
 
 Instead of continuously sending raw sensor data to a remote cloud server, the edge device can analyze the data near the point of sensing.
 
@@ -134,7 +134,7 @@ The exact thresholds and AI model can be calibrated using experimental and mine-
 
 # 📡 LoRa Mesh Communication
 
-SHEILD-M uses **LoRa** for long-range, low-power communication between underground sensor nodes and the local gateway.
+SHIELD-M uses **LoRa** for long-range, low-power communication between underground sensor nodes and the local gateway.
 
 ### Advantages
 
@@ -164,7 +164,7 @@ This approach can improve communication coverage in complex underground mine lay
 
 # 🚨 Alert System
 
-When abnormal conditions are detected, SHEILD-M generates an immediate warning.
+When abnormal conditions are detected, SHIELD-M generates an immediate warning.
 
 ### Alert Levels
 
@@ -185,9 +185,9 @@ Alerts can be presented through:
 
 # 🔄 Reusable Modular Design
 
-One of the major features of SHEILD-M is **node reusability**.
+One of the major features of SHIELD-M is **node reusability**.
 
-Underground coal mining areas continuously change as extraction progresses. SHEILD-M nodes are designed to be removable and redeployable.
+Underground coal mining areas continuously change as extraction progresses. SHIELD-M nodes are designed to be removable and redeployable.
 
 ```text
 Active Block
@@ -209,7 +209,7 @@ This reduces the need to permanently install new sensor nodes throughout changin
 
 # ☁️ Cloud-Independent Operation
 
-SHEILD-M does not require the cloud for its core safety function.
+SHIELD-M does not require the cloud for its core safety function.
 
 ### Without Internet
 
@@ -330,7 +330,7 @@ CONTINUE MONITORING
 
 # ✅ Feasibility
 
-SHEILD-M is technically feasible because it combines established sensing, embedded processing and wireless communication technologies.
+SHIELD-M is technically feasible because it combines established sensing, embedded processing and wireless communication technologies.
 
 * Commercially available structural and environmental sensors
 * ESP32-based data acquisition
@@ -407,7 +407,7 @@ SHEILD-M is technically feasible because it combines established sensing, embedd
 
 # 🎯 Key Features
 
-| Feature                          | SHEILD-M |
+| Feature                          | SHIELD-M |
 | -------------------------------- | -------- |
 | Multi-Sensor Monitoring          | ✅        |
 | Structural Monitoring            | ✅        |
@@ -426,7 +426,7 @@ SHEILD-M is technically feasible because it combines established sensing, embedd
 
 # 🏆 Key Innovation
 
-The key concept of SHEILD-M is the combination of:
+The key concept of SHIELD-M is the combination of:
 
 **Multi-Sensor Monitoring + Edge AI + LoRa Mesh + Real-Time Alerts + Reusable Modular Nodes**
 
@@ -436,7 +436,7 @@ This creates a distributed monitoring architecture designed specifically for the
 
 # 👥 Project
 
-**Project:** SHEILD-M
+**Project:** SHIELD-M
 **Problem Statement:** SIH 26025
 **Domain:** Underground Coal Mine Safety
 **Technology:** IoT + Edge AI + Wireless Sensor Network
@@ -452,8 +452,8 @@ This creates a distributed monitoring architecture designed specifically for the
 
 ## ⚠️ Disclaimer
 
-SHEILD-M is a prototype/research project intended for demonstration and development. It should not be considered a certified mine-safety system until it has undergone appropriate laboratory validation, field testing, calibration, reliability assessment, and certification according to applicable mining safety regulations.
+SHIELD-M is a prototype/research project intended for demonstration and development. It should not be considered a certified mine-safety system until it has undergone appropriate laboratory validation, field testing, calibration, reliability assessment, and certification according to applicable mining safety regulations.
 
 ---
 
-**SHEILD-M — Sense. Analyze. Communicate. Alert. Protect.**
+**SHIELD-M — Sense. Analyze. Communicate. Alert. Protect.**
